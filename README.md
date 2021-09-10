@@ -2,7 +2,7 @@
 convolutional neural net based traffic sign detection and classification using germen dataset of traffic signs and
 
 
-![plot](output/yolov4res14.jpg)
+![plot](output/demo.jpg)
 
 This repository contains my upgraded version of [using YoloV3 net to detect objects](https://github.com/fredotran/yolov3-opencvdnn) by training a YoloV4 model to recognize and detect **4 specific classes of traffic signs** : 
 
