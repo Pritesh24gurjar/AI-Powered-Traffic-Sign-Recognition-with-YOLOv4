@@ -74,7 +74,7 @@ The [`inputs`](https://github.com/Pritesh24gurjar/Traffic-sign-recognization-usi
 
 Using the notebooks for images, we can show some of the results : 
 
-![plot](output/yolov4res11.jpg) ![plot](output/yolov4res13.jpg) ![plot](output/yolov4res14.jpg)
+![plot](output/yolov4res17.jpg) ![plot](output/yolov4res13.jpg) ![plot](output/yolov4res14.jpg)
 ![plot](output/yolov4res16.jpg) ![plot](output/yolov4res15.jpg)
 ![plot](output/yolov4res18.jpg) 
 
