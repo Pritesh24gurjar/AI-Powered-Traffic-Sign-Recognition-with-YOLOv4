@@ -4,12 +4,11 @@ convolutional neural net based traffic sign detection and classification using g
 
 ![plot](output/demo.png)
 
-This repository contains my upgraded version of [using YoloV3 net to detect objects](https://github.com/fredotran/yolov3-opencvdnn) by training a YoloV4 model to recognize and detect **4 specific classes of traffic signs** : 
+This repository contains my upgraded version of [using YoloV3 net to detect objects](https://github.com/fredotran/yolov3-opencvdnn) by training a YoloV4 model to recognize and detect **3 specific classes of traffic signs** : 
 
-* Traffic lights.
-* Speedlimit.
-* Crosswalk.
-* Stop signs.
+* prohibitory
+* mandatory 
+* other 
 
 ---
 
