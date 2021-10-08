@@ -83,4 +83,4 @@ Using the notebooks for images, we can show some of the results :
 
 ## Acknowledgements.
 
-Thank you Neev shirke , malay khakkar , navin bubna for their incredible work on **YOLO object detector** : **[YOLOv3: An Incremental Improvement]
+Thank you Neev shirke , malay khakkar , navin bubna for their incredible work on **YOLO object detector**
