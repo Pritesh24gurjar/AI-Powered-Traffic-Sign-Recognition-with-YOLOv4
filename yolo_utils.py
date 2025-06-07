@@ -4,7 +4,7 @@ import cv2
 
 # function to load our classes names
 def read_classes(file):
-    """ Read the classes files and extract the classes' names in it""" 
+   
     classNames = []    
     with open(file, 'rt') as f:
         classNames = f.read().rstrip('\n').split('\n')
@@ -14,22 +14,19 @@ def read_classes(file):
 
 # object detection function
 def object_detection(outputs, input_frame, confidenceThreshold):
-    """ This function will perform bounding boxes acquisition on detected objects in frames (images) """
-    # first we'll collect the height, width and channel of the input frame (3 if the image is RGB, 1 if it's grayscale)
+    
     height, width, channel = input_frame.shape
     
-    # we'll create category lists to store the layers' output values 
     bounding_boxes = []
     class_objects = []
     confidence_probs = []
     
-    # Knowing that there are 3 YOLO layers, we'll browsing them and their outputs using this :
     for result in outputs:        
         for values in result:
             
             scores = values[5:] # we know that the class probabilities are from the 5th values
-            indices_object = np.argmax(scores) # get the indice of the max score
-            confidence_probability = scores[indices_object] # store the maximum value of the indice found
+            indices_object = np.argmax(scores)
+            confidence_probability = scores[indices_object]
             
             # in order to have a proper detection, we'll eliminate the weakest probability detection by imposing a threshold
             if confidence_probability > confidenceThreshold:   
